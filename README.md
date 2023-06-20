@@ -5,6 +5,8 @@
 
 After you set limits for the number of open tabs and open windows, the extension automatically closes new tabs (windows) if the number of tabs (windows) reaches the user-defined value.
 
+![Screenshot](tabAndWindowLimit.png)
+
 ## Installation Instructions
 
 1.   Download and Unzip this folder.
