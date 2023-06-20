@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab and Window Limit Extension",
+  "description": "Automatically closes new tabs (windows) if the number of tabs (windows) reaches a user-defined value.",
+  "version": "1.0",
+  "permissions": ["tabs", "windows", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

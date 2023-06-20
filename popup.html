@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="number"] {
+      width: 60px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Extension Settings</h3>
+
+  <label for="maxTabs">Maximum Tabs:</label>
+  <input type="number" id="maxTabs" min="1" value="6">
+
+  <label for="maxWindows">Maximum Windows:</label>
+  <input type="number" id="maxWindows" min="1" value="1">
+
+  <button id="saveButton">Save</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
